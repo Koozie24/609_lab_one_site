@@ -1,0 +1,123 @@
+/*creating a grid for top navigation pane
+https://developer.mozilla.org/en-US/docs/Web/CSS/repeat*/
+.header-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1%;
+    padding: 1%;
+}
+.grid-item{
+    background-color: cadetblue;
+    border: 1px solid white;
+    font-size: x-large;
+    text-align: center;
+    margin: 2%;
+}
+
+@media only screen and (max-width : 450px){
+    .grid-item{
+        font-size: medium;
+    }
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    padding: 10%;
+}
+
+#h3-id {
+    background-color: cadetblue;
+    text-align: center;
+    width: 25%;
+    padding: 3px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
+body{
+    background-color:lavender;
+}
+
+.self-intro{
+    margin: 2%
+}
+
+.pic-intro{
+    display: grid;
+    grid-template-rows: repeat(2);
+    grid-template-columns: repeat(2);
+    padding: 10px;
+}
+
+.index-img{
+    width: 100%;
+    height: auto;
+    max-width: 25vw;
+    margin: 2%;
+
+}
+
+.index-image-text{
+    border: 1px solid black;
+    width: 25%;
+    margin-top: -1%;
+    margin-left: 2%;
+}
+
+#light-dark-button{
+    background-color: cadetblue;
+    color: white;
+}
+
+#cs-head{
+    text-align: center;
+}
+
+#isu-img{
+    width: 100%;
+    height: auto;
+    max-width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 2%;
+}
+
+
+/*Cited in page_one.html but also here https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 2%;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 2%;
+
+}
+
+.individual-container{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-button{
+    padding: 10px;
+    background-color: cadetblue;
+    border: 1px solid white;
+}
+.drop-text{
+    display: none;
+}
+
+.individual-container:hover .drop-text{display: block;}
