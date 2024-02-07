@@ -1,0 +1,1 @@
+This website is the first lab for my CS609 Web Programming course. The objectives are to have three static pages each displaying at least one image, a class, an id, css grid or flexbox, linked pages, and bonus points for some functioning javascript. 
