@@ -20,7 +20,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/repeat*/
         font-size: medium;
     }
 }
-a{
+.header-text{
     display: inline-block;
     text-decoration: none;
     color: azure;
@@ -85,7 +85,7 @@ body{
 }
 
 
-/*Cited in page_one.html but also here https://www.w3schools.com/howto/howto_css_dropdown.asp*/
+/*Cited in page_one.html but also here https://www.w3schools.com/howto/howto_css_dropdown.asp    */
 .top-container{
     display: flex;
     flex-direction: row;
@@ -120,4 +120,18 @@ body{
     display: none;
 }
 
-.individual-container:hover.drop-text{display: block;}
+.individual-container:hover .drop-text  {
+    display: block;
+} 
+
+
+.github_container{
+    display: inline-block;
+    margin: 2%;
+}
+
+.github-link{
+    display: flex;
+    color: black;
+    background-color: cadetblue;
+}
