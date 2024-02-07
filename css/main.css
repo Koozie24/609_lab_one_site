@@ -125,13 +125,47 @@ body{
 } 
 
 
-.github_container{
-    display: inline-block;
+.github-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 2%;
+
+}
+
+.individual-container-gh{
+    width: 25%;
+}
+
+.link{
+    text-align: center;
+    background-color: cadetblue;
+    border: 1px solid white;
+    padding: 10px;
 }
 
 .github-link{
-    display: flex;
     color: black;
-    background-color: cadetblue;
+    text-decoration: none;
+    color: azure;
+    padding: 10px
+}
+
+.roly{
+    display: flex;
+    width: 100%;
+    max-height: 75%;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+
+#site{
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#p2-text{
+    text-align: center;
 }
