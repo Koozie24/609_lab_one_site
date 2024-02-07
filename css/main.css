@@ -120,4 +120,4 @@ body{
     display: none;
 }
 
-.individual-container:hover .drop-text{display: block;}
+.individual-container:hover.drop-text{display: block;}
